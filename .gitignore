@@ -49,3 +49,8 @@ data/paper_trades/
 build/
 dist/
 *.egg-info/
+
+data/
+
+data/
+.streamlit/secrets.toml
