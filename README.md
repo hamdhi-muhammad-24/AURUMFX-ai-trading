@@ -33,7 +33,6 @@ AURUMFX_AI_TRADING/
 ├── api/              # FastAPI backend files
 ├── core/             # Main AI trading logic
 ├── dashboard/        # Streamlit dashboard
-├── data/             # Data files and sample data
 ├── database/         # Database connection and models
 ├── scripts/          # Helper scripts
 ├── utils/            # Utility functions
@@ -41,46 +40,78 @@ AURUMFX_AI_TRADING/
 ├── requirements.txt  # Python dependencies
 ├── run.py            # Main runner file
 └── README.md         # Project documentation
-
-
+```
 ## Installation
 
-git clone YOUR_REPOSITORY_URL
-cd AURUMFX_AI_TRADING
+Clone the repository:
+
+```bash
+git clone https://github.com/hamdhi-muhammad-24/AURUMFX-ai-trading.git
+```
+
+Go inside the project folder:
+
+```bash
+cd AURUMFX-ai-trading
+```
+
+Create a virtual environment:
+
+```bash
 python -m venv venv
+```
+
+Activate the virtual environment:
+
+```bash
 venv\Scripts\activate
+```
+
+Install required packages:
+
+```bash
 pip install -r requirements.txt
+```
 
-How to Run
+## How to Run
 
-Run the main project: python run.py
+Run the main project:
 
-Run the Streamlit dashboard: streamlit run dashboard/app.py
+```bash
+python run.py
+```
+
+Run the Streamlit dashboard:
+
+```bash
+streamlit run dashboard/app.py
+```
 
 ## Main Modules
-# Core Module
 
-The core/ folder contains the main trading logic of the system. It includes modules for data loading, feature engineering, machine learning prediction, market structure analysis, signal generation, risk management, paper trading, and backtesting.
+### Core Module
 
-# API Module
+The `core/` folder contains the main trading logic of the system. It includes data loading, feature engineering, machine learning prediction, market structure analysis, signal generation, risk management, paper trading, and backtesting.
 
-The api/ folder contains the backend API structure. It can be used to connect the trading system with other applications or frontend interfaces.
+### API Module
 
-# Dashboard Module
+The `api/` folder contains the backend API structure. It can be used to connect the trading system with other applications or frontend interfaces.
 
-The dashboard/ folder contains the Streamlit dashboard. It provides a user interface to view market analysis, predictions, trading signals, and system outputs.
+### Dashboard Module
 
-# Database Module
+The `dashboard/` folder contains the Streamlit dashboard. It provides a user interface to view market analysis, predictions, trading signals, and system outputs.
 
-The database/ folder contains database-related files such as database connection and models.
+### Database Module
 
-# Scripts Module
+The `database/` folder contains database-related files such as database connection and models.
 
-The scripts/ folder contains helper scripts used for data preparation, testing, or project setup.
+### Scripts Module
 
-# Utils Module
+The `scripts/` folder contains helper scripts used for data preparation, testing, or project setup.
 
-The utils/ folder contains common helper functions such as logging and reusable utility methods.
+### Utils Module
+
+The `utils/` folder contains common helper functions such as logging and reusable utility methods.
 
 ## Disclaimer
 
@@ -89,3 +120,5 @@ This project is developed for educational and research purposes only. It is not 
 ## Author
 
 Developed by Hamdhi.
+
+
