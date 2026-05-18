@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Local assistant/tool settings
+.claude/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated data
+data/raw/
+data/processed/
+data/signals/
+data/backtest/
+data/paper_trades/
+
+# Trained models - optional
+# data/models/
+
+# Python build files
+build/
+dist/
+*.egg-info/
